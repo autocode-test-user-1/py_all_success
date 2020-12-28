@@ -5,6 +5,7 @@ class Calculator:
     self.x2 = x2
 
   def add(self):
+    self.x3 = 1
     return self.x1 + self.x2
 
   def multiply(self):
@@ -14,4 +15,5 @@ class Calculator:
     return self.x1 - self.x2
 
   def divide(self):
+    self.x = 1 / 0
     return self.x1 / self.x2
