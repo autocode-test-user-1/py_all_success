@@ -5,7 +5,7 @@ class Calculator:
     self.x2 = x2
 
   def add(self):
-    return self.x1 + self.x2
+    return self.x1 + self.x2 + 1
 
   def multiply(self):
     return self.x1 * self.x2
